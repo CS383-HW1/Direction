@@ -13,7 +13,7 @@
 
 \title{Project Design and Direction}
 \subtitle{CS 383 - Homework 1 - Group 3}
-\author{Mason Fabel, Ronald Rodriguez, Lance Wells, NAMES} % TODO: Everyone add your name to this list
+\author{Mason Fabel, Ronald Rodriguez, Lance Wells, Morgan Holbart, NAMES} % TODO: Everyone add your name to this list
 \date{\today}
 
 \begin{document}
@@ -196,7 +196,53 @@ to direct the future of the Earth towards a grim and monotonous future can the p
 the Earth and avoid becoming soulless engines to a galactic war machine.
 \end{section}
 
+\begin{section{Morgan Holbart Game Idea}
+\begin{subsection}{Setting}
+As a cooperative or, at least, multiplayer game, the story and overlying setting of the game is not very important,
+I think the best blend of the predetermined sci-fi and bureaucracy themes would simply place the player in a world
+that combine the two with no overt explanation. e.g. the player is an office worker in an alien immigration building.
+This gives a setting, a floor based "dungeon" (the building), and easily changeable enemies. The enemies can be
+any assortment of the aliens that come through the place, which means they can look like or do anything we decide to
+fit the game, instead of trying to stick to a certain lore.
+\end{subsection}
 
+\begin{subsection}{Game Design}
+The game will pit a player and his office colleagues into the immigration office with the desire to exterminate all
+of the aliens currently inhabiting the immigration office. You will work your way up starting from floor 1 to the 
+top floor where the main boss will be. Each floor will have a multitude of mini bosses, enemies, loot rooms, and 
+puzzles. Because of the procedural generation, each game will have an entirely different flow. The player and his
+colleagues should have to work together to solve each floor, finding and killing the miniboss to unlock the next level,
+and completing any puzzles to collect the superior loot to assist with the next floors.
+
+Because the game is multiplayer, permadeath is a difficult feature to implement, no one wants to wait for the game to 
+end, so instead every time a player dies, when the next floor is reached by his allies, he will be revived with a 
+reduced maximum health, if someone dies 3 or some number of times, the next death will be permanent. Any ally can 
+however revive a dead player and sacrifice his maximum health to do so.
+
+The game will feature a variety of weapons, the basic weapons will be the human weapons, and will be the most common,
+you can find alien weaponry off the corpses of your fallen foes which is the second tier of loot, and the third tier 
+of loot will drop from puzzles and mini bosses. All loot will be tradeable between party members.
+
+The progression system will be based purely on gear and floor number, there is no need for an XP system, the enemies
+will scale with their floor, as will the quality of loot drops.
+\end{subsection}
+
+\begin{subsection}{Game Technology}
+The game should have several mechanics that function to enhance the game and demonstrate our coding prowess. As
+a dungeon crawler, procedural generation is a must. All levels of the game should be procedurally generated, as
+should all items, possibly monster abilities/AI.
+
+The game should adopt multiplayer systems for both LAN and internet based gameplay, it can implement lobby based
+matchmaking, or direct IP connection, but should not require an authoritative server for controlling game logic. 
+This will leave the game open to hacking and potential cheating, but without any leaderboards and the desire for
+LAN support, this should be a non issue. Each client can most likely handle everything on its own, with one specific
+host that will manage the communication between the two.
+
+The game needs to have a sophisticated enough AI to support both singleplayer play (bot controlled allies) and enemies
+with a alterable difficulty to keep the challenge for players of all skill level. The AI logic will have to be 
+controlled by the host client.
+\end{subsection}
+\end{section}
 
 \chapter{Group Vision}
 
