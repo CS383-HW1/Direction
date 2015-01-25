@@ -4,16 +4,25 @@
 
 \geometry{margin=1in}
 
-\newcommand{\subtitle}[1]{%
-	\posttitle{%
+\newcommand{\subtitle}[1]{
+	\posttitle{
 		\par\end{center}
 		\begin{center}\large#1\end{center}
-		\vskip0.5em}%
+		\vskip0.5em}
 }
 
 \title{Project Design and Direction}
 \subtitle{CS 383 - Homework 1 - Group 3}
-\author{Mason Fabel, Ronald Rodriguez, Lance Wells, Morgan Holbart, Zachary Yama, NAMES} % TODO: Everyone add your name to this list
+
+\author{
+Mason Fabel \\
+\and Morgan Holbart \\
+\and Ronald Rodriguez \\
+\and Tessa Saul \\
+\and Lance Wells \\
+\and Zachary Yama \\
+}
+
 \date{\today}
 
 \begin{document}
@@ -21,8 +30,6 @@
 \maketitle
 
 \chapter{Individual Brainstorming}
-
-% TODO: Each person needs a section here.
 
 \begin{section}{Mason Fabel}
 Our project is to be ``a turn-based co-operative multiplayer
@@ -139,33 +146,35 @@ out to be.
 
 \begin{section}{Ronnie Rodriguez}
 \begin{subsection}{Tone and Theme}
-As my collegue has stated, a solid mix of humor and sci-fi action would
-be an excellent direction to take the game in, especially since we have been asked to 
-keep the content "G and PG" rated. 
+As my collegue has stated, a solid mix of humor and sci-fi action would be
+an excellent direction to take the game in, especially since we have been
+asked to keep the content ``G and PG'' rated. 
 
-This begs the question, though, as to what brand of humor we should
-be trying to use. In many comedic workplace-set films and tv shows like 
-The Office, Office Space, Parks and Recreation, IT Crowd, etc. a palpable type of 
-sarcastic, droll, deadpan humor is used. It's almost as if the characters in 
-these shows have just had all the life sucked out of them by their boring, 
-unfulfilling work, and almost everything that exits their mouths is 
-a bitter, sarcastic quip at something or someone. I think this type of humor 
-could translate well into a corporate-office set game. I think it is entirely
-possible to do this, while keeping it PG rated. 
+This begs the question, though, as to what brand of humor we should be
+trying to use. In many comedic workplace-set films and tv shows like The
+Office, Office Space, Parks and Recreation, IT Crowd, etc. a palpable type
+of sarcastic, droll, deadpan humor is used. It's almost as if the
+characters in these shows have just had all the life sucked out of them by
+their boring, unfulfilling work, and almost everything that exits their
+mouths is a bitter, sarcastic quip at something or someone. I think this
+type of humor could translate well into a corporate-office set game. I
+think it is entirely possible to do this, while keeping it PG rated. 
 \end{subsection}
 
 \begin{subsection}{Health Bar}
 In many hack-n-slash RPG games, increasing in level gives you a bonus to 
-your health bar. I think it would be cool to implement such a feature in our game, 
-but with a comedic twist. 
+your health bar. I think it would be cool to implement such a feature in
+our game, but with a comedic twist. 
 
-Assuming we adopt the deadpan style of humor popular in workplace-set comedies populated
-by characters who, for all intents and purposes, seem to have all but lost their will 
-to go on, I think that instead of a "health" bar, it would be funny to have "will to go on" bar. 
+Assuming we adopt the deadpan style of humor popular in workplace-set
+comedies populated by characters who, for all intents and purposes, seem to
+have all but lost their will to go on, I think that instead of a ``health''
+bar, it would be funny to have ``will to go on'' bar. 
 
-For instance, instead of saying something like "Health has been increased by 5" after going 
-up a level, we could have something like "Your will to go on has slightly increased. So you got that going for you,
-which is nice..." after our character receives a promotion within the company.
+For instance, instead of saying something like ``Health has been increased
+by 5'' after going up a level, we could have something like ``Your will to
+go on has slightly increased. So you got that going for you, which is
+nice\ldots'' after our character receives a promotion within the company.
 \end{subsection}
 \end{section}
 
@@ -177,219 +186,244 @@ The prompt in question asks that we merge two concepts:
 \end{itemize}
 
 Blending the two ideas brings about a few questions:
-Evil empire and a corporation to challenge? Why not work for the "bad 
-guys"? Paperwork to fend off and a Star-Warsish Sci-Fi setting? Why not fend off 
+Evil empire and a corporation to challenge? Why not work for the "bad guys"?
+Paperwork to fend off and a Star-Warsish Sci-Fi setting? Why not fend off 
 sentient paperwork?
 
-I also have a general storyline-concept that I would like to propose:\newline
+I also have a general storyline-concept that I would like to propose:
+
 \begin{center}
-\emph{It's the year 272820 and the remnants of the human race have been enslaved by 
-the Conquesting and Expanding Organization, otherwise known as the CEO.}
+\emph{It's the year 272820 and the remnants of the human race have been
+enslaved by the Conquesting and Expanding Organization, otherwise known as
+the CEO.}
 \end{center}
 
-The only clear goal of the CEO is to mitigate the human spirit, and assimilate the entirety 
-of humanity into its dull corporation through the most horrifying weapon imaginable - paperwork.
+The only clear goal of the CEO is to mitigate the human spirit, and
+assimilate the entirety of humanity into its dull corporation through the
+most horrifying weapon imaginable - paperwork.
 
-Maintaining a "Will to Live" (as per Ron's idea) is essential to surviving the work-ridden 
-future. Only by fighting the MAN (Malevolent Autonomous Navigator), a super-intelligence deigned 
-to direct the future of the Earth towards a grim and monotonous future can the player(s) rescue 
-the Earth and avoid becoming soulless engines to a galactic war machine.
+Maintaining a "Will to Live" (as per Ron's idea) is essential to surviving
+the work-ridden future. Only by fighting the MAN (Malevolent Autonomous
+Navigator), a super-intelligence deigned to direct the future of the Earth
+towards a grim and monotonous future can the player(s) rescue the Earth and
+avoid becoming soulless engines to a galactic war machine.
 \end{section}
 
 \begin{section}{Morgan Holbart Game Idea}
 \begin{subsection}{Setting}
-As a cooperative or, at least, multiplayer game, the story and overlying setting of the game is not very important,
-I think the best blend of the predetermined sci-fi and bureaucracy themes would simply place the player in a world
-that combine the two with no overt explanation. e.g. the player is an office worker in an alien immigration building.
-This gives a setting, a floor based "dungeon" (the building), and easily changeable enemies. The enemies can be
-any assortment of the aliens that come through the place, which means they can look like or do anything we decide to
-fit the game, instead of trying to stick to a certain lore.
+As a cooperative or, at least, multiplayer game, the story and overlying
+setting of the game is not very important, I think the best blend of the
+predetermined sci-fi and bureaucracy themes would simply place the player
+in a world that combine the two with no overt explanation. e.g. the player
+is an office worker in an alien immigration building.
+This gives a setting, a floor based "dungeon" (the building), and easily
+changeable enemies. The enemies can be any assortment of the aliens that
+come through the place, which means they can look like or do anything we
+decide to fit the game, instead of trying to stick to a certain lore.
 \end{subsection}
 
 \begin{subsection}{Game Design}
-The game will pit a player and his office colleagues into the immigration office with the desire to exterminate all
-of the aliens currently inhabiting the immigration office. You will work your way up starting from floor 1 to the 
-top floor where the main boss will be. Each floor will have a multitude of mini bosses, enemies, loot rooms, and 
-puzzles. Because of the procedural generation, each game will have an entirely different flow. The player and his
-colleagues should have to work together to solve each floor, finding and killing the miniboss to unlock the next level,
-and completing any puzzles to collect the superior loot to assist with the next floors.
+The game will pit a player and his office colleagues into the immigration
+office with the desire to exterminate all of the aliens currently inhabiting
+the immigration office. You will work your way up starting from floor 1 to
+the top floor where the main boss will be. Each floor will have a multitude
+of mini bosses, enemies, loot rooms, and puzzles. Because of the procedural
+generation, each game will have an entirely different flow. The player and
+his colleagues should have to work together to solve each floor, finding and
+killing the miniboss to unlock the next level, and completing any puzzles
+to collect the superior loot to assist with the next floors.
 
-Because the game is multiplayer, permadeath is a difficult feature to implement, no one wants to wait for the game to 
-end, so instead every time a player dies, when the next floor is reached by his allies, he will be revived with a 
-reduced maximum health, if someone dies 3 or some number of times, the next death will be permanent. Any ally can 
-however revive a dead player and sacrifice his maximum health to do so.
+Because the game is multiplayer, permadeath is a difficult feature to
+implement, no one wants to wait for the game to end, so instead every time a
+player dies, when the next floor is reached by his allies, he will be
+revived with a reduced maximum health, if someone dies 3 or some number of
+times, the next death will be permanent. Any ally can however revive a dead
+player and sacrifice his maximum health to do so.
 
-The game will feature a variety of weapons, the basic weapons will be the human weapons, and will be the most common,
-you can find alien weaponry off the corpses of your fallen foes which is the second tier of loot, and the third tier 
-of loot will drop from puzzles and mini bosses. All loot will be tradeable between party members.
+The game will feature a variety of weapons, the basic weapons will be the
+human weapons, and will be the most common, you can find alien weaponry off
+the corpses of your fallen foes which is the second tier of loot, and the
+third tier of loot will drop from puzzles and mini bosses. All loot will be
+tradeable between party members.
 
-The progression system will be based purely on gear and floor number, there is no need for an XP system, the enemies
-will scale with their floor, as will the quality of loot drops.
+The progression system will be based purely on gear and floor number, there
+is no need for an XP system, the enemies will scale with their floor, as
+will the quality of loot drops.
 \end{subsection}
 
 \begin{subsection}{Game Technology}
-The game should have several mechanics that function to enhance the game and demonstrate our coding prowess. As
-a dungeon crawler, procedural generation is a must. All levels of the game should be procedurally generated, as
+The game should have several mechanics that function to enhance the game and
+demonstrate our coding prowess. As a dungeon crawler, procedural generation
+is a must. All levels of the game should be procedurally generated, as
 should all items, possibly monster abilities/AI.
 
-The game should adopt multiplayer systems for both LAN and internet based gameplay, it can implement lobby based
-matchmaking, or direct IP connection, but should not require an authoritative server for controlling game logic. 
-This will leave the game open to hacking and potential cheating, but without any leaderboards and the desire for
-LAN support, this should be a non issue. Each client can most likely handle everything on its own, with one specific
+The game should adopt multiplayer systems for both LAN and internet based
+gameplay, it can implement lobby based matchmaking, or direct IP connection,
+but should not require an authoritative server for controlling game logic. 
+This will leave the game open to hacking and potential cheating, but without
+any leaderboards and the desire for LAN support, this should be a non issue.
+Each client can most likely handle everything on its own, with one specific
 host that will manage the communication between the two.
 
-The game needs to have a sophisticated enough AI to support both singleplayer play (bot controlled allies) and enemies
-with a alterable difficulty to keep the challenge for players of all skill level. The AI logic will have to be 
-controlled by the host client.
+The game needs to have a sophisticated enough AI to support both
+singleplayer play (bot controlled allies) and enemies with a alterable
+difficulty to keep the challenge for players of all skill level. The AI
+logic will have to be controlled by the host client.
 \end{subsection}
 \end{section}
 
 \begin{section}{Game Direction – Zachary Yama}
 \begin{subsection}{Story and Theme}
+I very much like the story written by our first two game idea entires. Much
+moreso than my own, but either way, here's my take on it.
 
-I very much like the story written by our first two game idea entires. Much moreso than
-my own, but either way, here's my take on it.
-
-The basic premise of our game must include both office worker themes and sci-fi themes. 
-The morphed combinational theme that comes to mind is of a scientist who develops weapons 
-of mass destruction for a company you, the office worker, have deemed unethical and evil. 
-The corruption of the company you work for is so expansive that you dare not to leave out 
-of fear. However, because you aren’t the only scientist, you find yourself caught up in the 
-evil mad scientists’ scene when you really don’t want to be. The only co-worker you’ve been 
-friends with and ever enjoyed working with has accidently unleashed an aggressive stimuli 
-into the complex because of reasons unknown. His dying act of kindness was to give you the 
-only vaccination. Your quest is to make it to ground level and out safely (Underground 
-working up? Tall building working down?), find out what happened to your friend’s 
-bio-aggression project, and wipe out all infected individuals. All along the way you will 
-be engineering and developing new weapons, traps, and dispatching strategies to take out 
-mobs, solve puzzles, and defeat bosses.
-
+The basic premise of our game must include both office worker themes and
+sci-fi themes. The morphed combinational theme that comes to mind is of a
+scientist who develops weapons of mass destruction for a company you, the
+office worker, have deemed unethical and evil. The corruption of the company
+you work for is so expansive that you dare not to leave out of fear.
+However, because you aren’t the only scientist, you find yourself caught up
+in the evil mad scientists’ scene when you really don’t want to be. The only
+co-worker you’ve been friends with and ever enjoyed working with has
+accidently unleashed an aggressive stimuli into the complex because of
+reasons unknown. His dying act of kindness was to give you the only
+vaccination. Your quest is to make it to ground level and out safely
+(Underground working up? Tall building working down?), find out what
+happened to your friend’s bio-aggression project, and wipe out all infected
+individuals. All along the way you will be engineering and developing new
+weapons, traps, and dispatching strategies to take out mobs, solve puzzles,
+and defeat bosses.
 \end{subsection}
+
 \begin{subsection}{Building Weapons}
-An additional feature that I would like to propose is the way weapons are created and
-generated within the game. A good equipment system that feels alive is something that
-can really bring a lot to the table. Though random generation is an option, allowing
-the player to build something of their very own is equally if not more powerful. It 
-creates additional immersion and charm to the game, and invites the player to continue
-somewhat soley for the sake of finding out what new cool weapon they can build by 
-defeating the next enemy.
+An additional feature that I would like to propose is the way weapons are
+created and generated within the game. A good equipment system that feels
+alive is something that can really bring a lot to the table. Though random
+generation is an option, allowing the player to build something of their
+very own is equally if not more powerful. It creates additional immersion
+and charm to the game, and invites the player to continue somewhat soley for
+the sake of finding out what new cool weapon they can build by defeating
+the next enemy.
 
-For weapons and items, having the ability to construct your own from parts you've found 
-throughout your adventures is extremely interesting. I've seen this done before in the
-game Loadout, which is a free third person shooter. It employs about 6 total parts for
-any weapon, which there are about 10 varaiations of. Each part will modify the behavior
-of the weapon in some way. For example, if you decided to use a scope you can zoom. If
-you decide instead to use a lazer scope, now you've got a lazer to aim with. The system
-would have to be altered to fit our game, but it wouldn't take that much effort to come
-up with several weapon designs that are not only customizable, but fun to play with. 
-Having this kind of game element would bring a lot of personal attachment with it, making
-the player more immersed. The more fun the better, eh?
-
+For weapons and items, having the ability to construct your own from parts
+you've found throughout your adventures is extremely interesting. I've
+seen this done before in the game Loadout, which is a free third person
+shooter. It employs about 6 total parts for any weapon, which there are
+about 10 varaiations of. Each part will modify the behavior of the weapon in
+some way. For example, if you decided to use a scope you can zoom. If you
+decide instead to use a lazer scope, now you've got a lazer to aim with. The
+system would have to be altered to fit our game, but it wouldn't take that
+much effort to come up with several weapon designs that are not only
+customizable, but fun to play with. Having this kind of game element would
+bring a lot of personal attachment with it, making the player more immersed.
+The more fun the better, eh?
 \end{subsection}
 \end{section}
 
+\chapter{Group Vision - Lance Wells}
+% Please note that all of this is tenative and largely an artifact of
+% storytelling, if you have any suggestions or changes, please make them.
+% -- Lance Wells
 
-\chapter{Group Vision}
-
-% TODO: Discuss Friday
-% TODO: Appoint writers
-% TODO: Actually have content here by Monday
+I have decided to write this section in terms of fictional prose in an 
+effort to more accurately describe the scenario without sounding too
+laborious in the process.
 
 \begin{section}{Setting - Lance Wells}
+Nestled between the dusty bosom of Mars and the neo-genetic warlords of
+Venus lies the glorious visage of Earth, a bustling, cybernetic utopia whose
+chief export - human labor - drives the many corporate houses calling the
+blue, green, and gray planet home.
 
-%Please note that all of this is tenative and largely an artifact of storytelling, 
-%if you have any suggestions or changes, please make them.
-%Lance Wells
+One of the largest organizations on Earth, the Western Organization for
+Resurgent Knowledge (W.O.R.K.) is your newest employer. White-washed,
+colorless cubicles blanketed by flickering, fluorescent lights stretch for
+miles as your sleepless coworkers dawdle about their systems.
 
-%I have decided to write this section in terms of fictional prose in an 
-%effort to more accurately describe the scenario without sounding too laborious in the 
-%process. If you have another recommendation, feel free to comment as such.
-%Lance Wells
+Fortunately, escape from this bleak business purgatory is but keystrokes
+away. As an Information Technology Associate (of the future), your primary
+purpose in this business is to hunt-down and remove any pesky viruses
+infecting the systems of your associates.
 
-Nestled between the dusty bosom of Mars and the neo-genetic warlords of Venus lies the 
-glorious visage of Earth, a bustling, cybernetic utopia whose chief export - human labor 
-- drives the many corporate houses calling the blue, green, and gray planet home.
+Neon-blue lines shift, pulsate, and shimmer as you enter the system of a
+sales associate from cubicle 28xA1x47, Martha. Gradually coming into focus,
+matrices of virtual wire outline your new surroundings. Walls and corridors
+begin to form and shift into a gradually expanding labyrinth. Just as you
+catch your breath, a dimly glowing red object comes into view, twitching
+menacingly.
 
-One of the largest organizations on Earth, the Western Organization for Resurgent 
-Knowledge (W.O.R.K.) is your newest employer. White-washed, colorless cubicles blanketed 
-by flickering, fluorescent lights stretch for miles as your sleepless coworkers dawdle 
-about their systems.
+``A virus,'' you mutter to yourself as your right hand gradually shifts
+downwards towards the weapon holstered on your e-belt. A lime-green,
+glittering pistol reaches your fingertips. Pieced together meticulously from
+parts won from previous conquests, its forking barrel snaps into action. As
+you pull the trigger, four ``bit-lets'' jet towards the malware, twirling
+into a tightly-closed circle, a signature of the Wrought-I/Orn hammer which
+you so cleverly installed before this encounter.
 
-Fortunately, escape from this bleak business purgatory is but keystrokes away. As an 
-Information Technology Associate (of the future), your primary purpose in this business 
-is to hunt-down and remove any pesky viruses infecting the systems of your associates.
+Numerous foes follow, each torn apart by the partnership of your ruthless
+trigger finger, and the weapon you endearingly refer to as ``Lucy''. Your
+conquest ends, rather heroically, to be greeted by the familiar, boisterous
+woman whose computer you have rid of the virtual invaders.
 
-Neon-blue lines shift, pulsate, and shimmer as you enter the system of a sales associate 
-from cubicle 28xA1x47, Martha. Gradually coming into focus, matrices of virtual wire 
-outline your new surroundings. Walls and corridors begin to form and shift into a gradually 
-expanding labyrinth. Just as you catch your breath, a dimly glowing red object comes into 
-view, twitching menacingly.
-
-``A virus,'' you mutter to yourself as your right hand gradually shifts downwards towards 
-the weapon holstered on your e-belt. A lime-green, glittering pistol reaches your 
-fingertips. Pieced together meticulously from parts won from previous conquests, its forking 
-barrel snaps into action. As you pull the trigger, four ``bit-lets'' jet towards the malware, 
-twirling into a tightly-closed circle, a signature of the Wrought-I/Orn hammer which you so 
-cleverly installed before this encounter.
-
-Numerous foes follow, each torn apart by the partnership of your ruthless trigger finger, 
-and the weapon you endearingly refer to as ``Lucy''. Your conquest ends, rather heroically, 
-to be greeted by the familiar, boisterous woman whose computer you have rid of the virtual 
-invaders.
-
-Left with the satisfaction of your coworker's appreciation, you feel your efforts echoing 
-across the cubicle space. Friends of your new ally, Martha, now refer to you as a ``friend'', 
-and promotions begin to feel inevitable. Some day, you too aspire to face the mysterious 
-figure at the head of W.O.R.K., known to all as ``The C.E.O''.
-
-
+Left with the satisfaction of your coworker's appreciation, you feel your
+efforts echoing across the cubicle space. Friends of your new ally, Martha,
+now refer to you as a ``friend'', and promotions begin to feel inevitable.
+Some day, you too aspire to face the mysterious figure at the head of
+W.O.R.K., known to all as ``The C.E.O''.
 \end{section}
 
-\begin{section}{Story - Lance Wells}
+\begin{section}{Story}
 
-\hspace{1.5em}As a fresh-faced employee of the futuristic conglomerate known as ``W.O.R.K.'', 
-your goal is to locate and destroy any viruses infecting the systems of your coworkers. You, 
-along with any other of your cohorts, cleanse systems through the use of virtual reality. By 
-cleaning each system, you gain cybernated components for your digital arsenal in addition to 
+As a fresh-faced employee of the futuristic conglomerate known as
+``W.O.R.K.'', your goal is to locate and destroy any viruses infecting the
+systems of your coworkers. You, along with any other of your cohorts,
+cleanse systems through the use of virtual reality. By cleaning each system,
+you gain cybernated components for your digital arsenal in addition to 
 the networked affections of your coworkers.
 
-Your own intentions, however, lie with working your way up the corporate ladder to eventually 
-face the shadowy head of the company, ``The C.E.O.''. A figure masked in infamy, little is 
-known of The C.E.O. aside from the effectual manner in which the company is run.
+Your own intentions, however, lie with working your way up the corporate
+ladder to eventually face the shadowy head of the company, ``The C.E.O.''.
+A figure masked in infamy, little is known of The C.E.O. aside from the
+effectual manner in which the company is run.
 
-As you cut away infections from the workstations of your coworkers, the source and origin of 
-the malodorous programming slowly reveals itself. The very same individual that determines the 
-fate of your corporation is the one distributing the electronic diseases.
-\newline
+As you cut away infections from the workstations of your coworkers, the
+source and origin of the malodorous programming slowly reveals itself. The
+very same individual that determines the fate of your corporation is the one
+distributing the electronic diseases.
 
-Determined to stop this proliferation, you commit yourself to reaching the corporate office 
-and challenging your supervisor. System after system, your skill as a malware-slayer grows 
-in addition to the supply of friends that begin to network and rally behind you.
+Determined to stop this proliferation, you commit yourself to reaching the
+corporate office and challenging your supervisor. System after system, your
+skill as a malware-slayer grows in addition to the supply of friends that
+begin to network and rally behind you.
 
-Upon reaching the dark corporate ``castle'' of your dreaded executive handler, you enter to 
-discover that the sinister force behind the computer plague is, itself, a computer. The final 
-encounter of your journey, you quickly adorn your virtual equipment and venture into the 
-mainframe of the baneful boss.
+Upon reaching the dark corporate ``castle'' of your dreaded executive
+handler, you enter to discover that the sinister force behind the computer
+plague is, itself, a computer. The final encounter of your journey, you
+quickly adorn your virtual equipment and venture into the mainframe of the
+baneful boss.
 
-The swirling den of your former commander bids you death as you soon learn that there is no 
-easy solution to defeating this monster. A quick snippet of code crafted by your affectionate 
-coworkers materializes into a new shape in your hands, the ``Information Terminator''. Like a 
-magnet to a monitor, you have but one option, you must lay the transmitter atop the C.E.O.'s 
-sole weakness, the Malevolent Automation Node. As your mission becomes clear, lights flash across 
-your screen, ``To defeat this otherwise impossible enemy, you must stick I.T. to the M.A.N.''.
+The swirling den of your former commander bids you death as you soon learn
+that there is no easy solution to defeating this monster. A quick snippet of
+code crafted by your affectionate coworkers materializes into a new shape
+in your hands, the ``Information Terminator''. Like a magnet to a monitor,
+you have but one option, you must lay the transmitter atop the C.E.O.'s 
+sole weakness, the Malevolent Automation Node. As your mission becomes
+clear, lights flash across your screen, ``To defeat this otherwise
+impossible enemy, you must stick I.T. to the M.A.N.''.
 
-The moment you strike the node with your transmitter, everything ceases to move. All lights and 
-motion slowly fall out of existence. Like black paint flecked along a picture, the world around 
-you gradually fades into nothingness. Soon, all that is left is the booming voice of the former 
-Computerized Executive Officer repeating ``ERROR: SYSTEM MALFUNCTION: RECOMMEND REBOOT''. The 
-cheers of your coworkers draw you back to reality, their exuberance can only mean one thing. As 
-shapes and colors return to your vision, you glance at the monitor which had glared at you so 
-threateningly before. A happy face, composed of few pixels illustrates the screen. Your victory 
-is finally at hand.
-
+The moment you strike the node with your transmitter, everything ceases to
+move. All lights and motion slowly fall out of existence. Like black paint
+flecked along a picture, the world around you gradually fades into
+nothingness. Soon, all that is left is the booming voice of the former 
+Computerized Executive Officer repeating ``ERROR: SYSTEM MALFUNCTION:
+RECOMMEND REBOOT''. The cheers of your coworkers draw you back to reality,
+their exuberance can only mean one thing. As shapes and colors return to
+your vision, you glance at the monitor which had glared at you so
+threateningly before. A happy face, composed of few pixels illustrates the
+screen. Your victory is finally at hand.
 \end{section}
 
-\begin{section}{Mechanics}
-\end{section}
+%\begin{section}{Mechanics}
+%\end{section}
 
 \end{document}
